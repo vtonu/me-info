@@ -6,9 +6,11 @@ const FeatureSection = () => {
 
   const handleClick = (index) => {
     setClickedStatus({ ...clickedStatus, [index]: true });
+
+    // Change text to "Copied!" and revert back to "COPY" after 1.5 seconds
     setTimeout(() => {
-      setClickedStatus({ ...clickedStatus, [index]: false });
-    }, 500);
+      setClickedStatus((prevState) => ({ ...prevState, [index]: false }));
+    }, 1500);
   };
 
   return (
@@ -26,11 +28,12 @@ const FeatureSection = () => {
             <div className="grid gap-4 justify-items-center">
               <div className="pt-8 hover:cursor-default">{feature.text}</div>
               <button
-                className={`flex items-center justify-center w-10 h-10 text-blue-700 rounded-md bg-neutral-100 hover:bg-neutral-200 ${
+                className={`flex items-center justify-center w-auto h-10 text-blue-700 rounded-md bg-neutral-100 hover:bg-neutral-200 px-2 ${
                   clickedStatus[index] ? 'bg-neutral-300 border-2 text-blue-600' : ''
                 }`}
                 onClick={() => handleClick(index)}>
                 {feature.icon}
+                <span className="ml-2">{clickedStatus[index] ? 'Copied!' : feature.copyText}</span>
               </button>
               <div className="pb-2 mb-2 text-md text-amber-50">{feature.description}</div>
             </div>
