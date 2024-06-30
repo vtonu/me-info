@@ -220,8 +220,7 @@ export const features = [
     ),
     description: (
       <div className="p-2 font-normal border rounded-md bg-neutral-800 text-md border-neutral-600">
-        <p className="text-center ">+1 (425) 588-7578 (Igor)</p>
-        <p className="text-center ">+1 (425) 459-0089 (Victor)</p>
+        <p className="text-center ">+1 (425) 588-7578</p>
       </div>
     ),
   },

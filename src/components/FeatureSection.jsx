@@ -4,7 +4,7 @@ const FeatureSection = () => {
   return (
     <div className="relative mt-10  min-h-[600px]">
       <h2 className="text-3xl tracking-wide text-center sm:text-5xl lg:text-6xl">
-        METER ELECTRIC LLC<br></br>
+        METER ELECTRIC<br></br>
         <span className="text-transparent bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text">
           BUSINESS INFO
         </span>
