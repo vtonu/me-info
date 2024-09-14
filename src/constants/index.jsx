@@ -13,7 +13,7 @@ export const features = [
         <p className="text-center">METER ELECTRIC LLC</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: 'METER ELECTRIC',
   },
   {
     icon: <Copy />,
@@ -27,7 +27,7 @@ export const features = [
         <p className="text-center ">99-0388124</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '99-0388124',
   },
   {
     icon: <Copy />,
@@ -41,7 +41,7 @@ export const features = [
         <p className="text-center ">605-383-312</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '605-383-312',
   },
   {
     icon: <Copy />,
@@ -55,7 +55,7 @@ export const features = [
         <p className="text-center ">December 21, 2023 (WASOS Certificate)</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: 'December 21, 2023',
   },
   {
     icon: <Copy />,
@@ -70,7 +70,7 @@ export const features = [
         <p className="text-center ">Expires: Dec 31, 2024</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '6053833120010001',
   },
   {
     icon: <Copy />,
@@ -84,7 +84,7 @@ export const features = [
         <p className="text-center ">605383312 - NON-RESIDENT - ACTIVE</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '605383312 - NON-RESIDENT - ACTIVE',
   },
   {
     icon: <Copy />,
@@ -99,7 +99,7 @@ export const features = [
         <p className="text-center ">Expires: 03/31/2025</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '605383312 - NON-RESIDENT - ACTIVE',
   },
   {
     icon: <Copy />,
@@ -114,7 +114,7 @@ export const features = [
         <p className="text-center ">Expires: 05/31/2025</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '605383312 - NON-RESIDENT - ACTIVE',
   },
   {
     icon: <Copy />,
@@ -129,7 +129,7 @@ export const features = [
         <p className="text-center ">IssueDate: 06/14/2024</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '67546',
   },
   {
     icon: <Copy />,
@@ -144,7 +144,7 @@ export const features = [
         <p className="text-center ">Expires: 01/08/2026</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: 'METEREL772R7',
   },
   {
     icon: <Copy />,
@@ -159,7 +159,7 @@ export const features = [
         <p className="text-center ">Expiration Date: Feb-15-2026</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: 'A57940926',
   },
   {
     icon: <Copy />,
@@ -173,7 +173,7 @@ export const features = [
         <p className="text-center ">15011 29th Ave W, Lynnwood WA 98087</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '15011 29th Ave W, Lynnwood WA 98087',
   },
   {
     icon: <Copy />,
@@ -187,7 +187,7 @@ export const features = [
         <p className="text-center ">meterelectrical@gmail.com</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: 'meterelectrical@gmail.com',
   },
   {
     icon: <Copy />,
@@ -201,7 +201,7 @@ export const features = [
         <p className="text-center ">www.meterelectrical.com</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: 'www.meterelectrical.com',
   },
   {
     icon: <Copy />,
@@ -215,6 +215,6 @@ export const features = [
         <p className="text-center ">+1 (425) 588-7578</p>
       </div>
     ),
-    copyText: 'COPY',
+    copyText: '4255887578',
   },
 ];
