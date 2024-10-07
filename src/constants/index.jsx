@@ -161,7 +161,7 @@ export const features = [
     ),
     copyText: 'A57940926',
   },
-  {
+  /*  {
     icon: <Copy />,
     text: (
       <span className="px-4 py-2 text-sm font-medium tracking-wide text-blue-600 uppercase rounded-sm bg-neutral-100">
@@ -174,7 +174,7 @@ export const features = [
       </div>
     ),
     copyText: '15011 29th Ave W, Lynnwood WA 98087',
-  },
+  }, */
   {
     icon: <Copy />,
     text: (
